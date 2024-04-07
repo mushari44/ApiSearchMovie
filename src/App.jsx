@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import searchIcon from "/search.svg";
 import MovieCard from "./MovieCard";
-
+// api kep website :
+// http://www.omdbapi.com/apikey.aspx
 const API_URL = "http://www.omdbapi.com?apikey=135e2e84";
 
 function App() {
